@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		plugin={"html:reports/cucumber-html-report", 
 				"json:reports/cucumber.json",
 				"pretty"},
-		tags={"@run"},
+		tags={"@Regression"},
 		features="src/test/java/features/", 
 		glue={"stepDefination"},
 		monochrome=true,
