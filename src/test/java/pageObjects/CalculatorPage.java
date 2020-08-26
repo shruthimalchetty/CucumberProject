@@ -15,7 +15,10 @@ public class CalculatorPage extends Setup{
   public WebElement getLinkBMI(){
 	  return driver.findElement(By.xpath("//a[contains(text(),'BMI Calculator')]"));
   }
-  
+  /**
+   * Opening url
+   * @throws Exception
+   */
   public void openUrl() throws Exception {
 	  driver.get("https://www.calculator.net/");
   }
