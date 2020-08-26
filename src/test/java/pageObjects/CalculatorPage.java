@@ -10,7 +10,8 @@ import utilities.Setup;
 public class CalculatorPage extends Setup{
 
 	
-	
+  /**Get Link for BMI
+  **/
   public WebElement getLinkBMI(){
 	  return driver.findElement(By.xpath("//a[contains(text(),'BMI Calculator')]"));
   }
