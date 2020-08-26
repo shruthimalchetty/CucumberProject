@@ -1,2 +1,2 @@
-Feature: Login into the application
+Feature: Login into the applications
 
