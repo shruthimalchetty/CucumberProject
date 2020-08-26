@@ -1,2 +1,2 @@
-Feature: Login into the applications for facebook
+Feature: Login into the applications
 
